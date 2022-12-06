@@ -1,0 +1,34 @@
+Theory : -  Xpath=//tagname[@Attributes='Value']
+Links ---   https://youtu.be/-eyvW3uUODk 
+			http://demo.guru99.com/test/selenium-xpath.html
+//*[@value='rbAnswer2']
+
+
+SYNTAX FOR XPATH SELENIUM:
+
+XPath contains the path of the element situated at the web page. Standard XPath syntax for creating XPath is.
+
+Xpath=//tagname[@attribute='value']
+		// : Select current node.
+		Tagname: Tagname of the particular node.
+		@: Select attribute.
+		Attribute: Attribute name of the node.
+		Value: Value of the attribute.
+		
+To find the element on web pages accurately there are different types of locators:
+
+		XPATH LOCATORS	Find different elements on web page
+		
+		ID				To find the element by ID of the element
+		Classname		To find the element by Classname of the element
+		Name			To find the element by name of the element
+		Link text		To find the element by text of the link
+		XPath			XPath required for finding the dynamic element and traverse between various elements of the web page
+		CSS path		CSS path also locates elements having no name, class or ID.		
+		
+Absolute XPath: /html/body/div[2]/div[1]/div/h4[1]/b/html[1]/body[1]/div[2]/div[1]/div[1]/h4[1]/b[1]
+[It is the direct way to find the element, but the disadvantage of the absolute XPath is that if there are any changes made in the path of the element then that XPath gets failed]
+		
+Relative Xpath: 
+starts from the middle of HTML DOM structure. It starts with double forward slash (//). It can search elements anywhere on the webpage, means no need to write a long xpath and you can start from the middle of HTML DOM structure. Relative Xpath is always preferred as it is not a complete path from the root element.		
+		
